@@ -1,0 +1,1 @@
+Tasks on making hash tables in C and resolving collisions.
