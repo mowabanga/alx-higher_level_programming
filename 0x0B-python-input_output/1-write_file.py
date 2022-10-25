@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """Writing a string to an encoded file"""
 
 def write_file(filename="", text=""):
