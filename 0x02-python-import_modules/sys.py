@@ -2,9 +2,9 @@
 if __name__ == "__main__":
     import sys
     count = len(sys.argv) - 1
+    
     if count == 0:
         print("{} arguments.".format(count))
-    for i in sys.argv:
-        if i == 1:
-            print("{} argument:")
-            print("{}: {}".format(i, sys.argv[i]))
+    elif count == 1:
+        print("{} argument:".format(count))
+        print("{}: {}".format(count, str(sys.argv[0])))
