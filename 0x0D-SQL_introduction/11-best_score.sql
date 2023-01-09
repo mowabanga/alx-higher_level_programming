@@ -2,4 +2,4 @@
 -- Display score and name
 -- Order desc
 
-SELECT score, name FROM second_table WHERE score >= 10;
+SELECT COUNT(score,name) FROM second_table WHERE score >= 10 ORDER BY DESC;
