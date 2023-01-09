@@ -1,0 +1,16 @@
+-- Creates a new table, second_table in the DB hbtn_0c_c
+-- add column: id, name, score
+-- script should pass without fail
+-- script will also create new records
+
+CREATE TABLE IF NOT EXISTS second_table (
+    id INT,
+    name VARCHAR(256,
+    score INT)
+);
+
+INSERT INTO second_table(id, name, score) VALUES
+    (1, "John", 10), 
+    (2, "Alex", 3),
+    (3, "Bob", 14),
+    (4, "George", 8);
