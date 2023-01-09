@@ -2,6 +2,7 @@
 -- add column: id, name, score
 -- script should pass without fail
 -- script will also create new records
+-- Not allowed to use SELECT and SHOW statements
 
 CREATE TABLE IF NOT EXISTS second_table (
     id INT,
