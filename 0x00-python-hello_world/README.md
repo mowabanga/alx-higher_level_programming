@@ -1,0 +1,1 @@
+This is the first intro to the basics of C. Long time coming but let me see i I can catch up with the rest of the squad.
