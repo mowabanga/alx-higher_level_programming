@@ -1,0 +1,1 @@
+An indepth approach to the world of data structures in Python
