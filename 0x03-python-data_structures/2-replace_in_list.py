@@ -7,10 +7,7 @@ def replace_in_list(my_list, idx, element):
         idx (__int__): index
         element (_int_): element to replace
     """
-    listlen = len(my_list)
-    if idx > listlen or idx < 0:
-        return(my_list)
-    else:
-        my_list.pop(idx)
-        my_list.insert(idx, element)
-        print(my_list)
+    if idx < 0 or idx >= len(my_list):
+        return my_list
+    my_list[idx] = element
+    return my_list
