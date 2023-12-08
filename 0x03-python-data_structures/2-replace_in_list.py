@@ -13,4 +13,4 @@ def replace_in_list(my_list, idx, element):
     else:
         my_list.pop(idx)
         my_list.insert(idx, element)
-    print(my_list)
+        print(my_list)
