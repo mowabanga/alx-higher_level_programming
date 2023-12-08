@@ -9,7 +9,7 @@ def replace_in_list(my_list, idx, element):
     """
     listlen = len(my_list)
     if idx > listlen or idx < 0:
-        print(my_list)
+        returns(my_list)
     else:
         my_list.pop(idx)
         my_list.insert(idx, element)
