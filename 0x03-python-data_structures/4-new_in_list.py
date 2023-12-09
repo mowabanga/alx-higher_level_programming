@@ -1,0 +1,16 @@
+#!/usr/bin/python3
+def new_in_list(my_list, idx, element):
+    """Replaces an element in a list at a specific position without modifying the list
+
+    Args:
+        my_list (_type_): list
+        idx (_type_): index
+        element (_type_): element
+    """
+    if idx < 0 or idx >= len(my_list):
+        return my_list
+    else:
+        new_list = my_list[:]
+        new_list.pop(idx)
+        new_list.insert(idx, element)
+        return new_list
