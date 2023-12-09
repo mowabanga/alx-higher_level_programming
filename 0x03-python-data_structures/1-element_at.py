@@ -11,5 +11,3 @@ def element_at(my_list, idx):
         return "None"
     else:
         print(f"Element at index {idx} is {my_list[idx]}")
-
-element_at([1, 2, 4], 9)
