@@ -5,10 +5,9 @@ def print_reversed_list_integer(my_list=[]):
     Args:
         my_list (list, optional): List item. Defaults to [].
     """
+    new_list = []
     for i in range(len(my_list)):
-        new_list = []
-        popped = my_list.pop(my_list)
+        popped = my_list.pop()
         new_list.append(popped)
-        print(new_list)
-
-print_reversed_list_integer([1, 2, 3, 4, 5])
+    for i in range(len(new_list)):
+        print("{}".format(new_list[i]))
