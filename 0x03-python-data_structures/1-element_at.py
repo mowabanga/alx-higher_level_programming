@@ -10,4 +10,5 @@ def element_at(my_list, idx):
     if idx >= length or idx < 0:
         return "None"
     else:
-        print(f"Element at index {idx} is {my_list[idx]}")
+        print("Element at index {} is {}".fomr
+              (idx, my_list[idx]))
