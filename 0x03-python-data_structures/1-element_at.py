@@ -8,6 +8,8 @@ def element_at(my_list, idx):
     """
     length = len(my_list)
     if idx >= length or idx < 0:
-        return None
+        return "None"
     else:
-        return(f"Element at index {idx} is {my_list[idx]}")
+        print(f"Element at index {idx} is {my_list[idx]}")
+
+element_at([1, 2, 4], 9)
