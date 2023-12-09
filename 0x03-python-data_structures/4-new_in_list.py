@@ -3,9 +3,9 @@ def new_in_list(my_list, idx, element):
     """Replaces an element in a list at a specific position 
 
     Args:
-        my_list (_type_): list
-        idx (_type_): index
-        element (_type_): element
+        my_list : list
+        idx : index
+        element : element
     """
     if idx < 0 or idx >= len(my_list):
         return my_list
