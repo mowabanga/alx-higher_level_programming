@@ -10,4 +10,4 @@ def uniq_add(my_list=[]):
     [unique_list.append(x) for x in my_list if x not in unique_list]
     for i in range(len(unique_list)):
         sum += unique_list[i]
-    print("Result: {:d}".format(sum))
+    return sum
