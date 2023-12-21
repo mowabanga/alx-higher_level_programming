@@ -9,6 +9,4 @@ def search_replace(my_list, search, replace):
     """
     new_list = my_list[:]
     new_list= list(map(lambda x: replace if x == search else x, new_list))
-    print(new_list)
-        
-search_replace([1, 23, 4], 23, 3)
+    return new_list
