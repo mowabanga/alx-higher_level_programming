@@ -10,4 +10,4 @@ def square_matrix_simple(matrix=[]):
     squared_matrix = [[x**2 for x in row] for row in matrix]
     return squared_matrix
         
-print(square_matrix_simple([[1, 2, 3], [4, 5, 6], [7, 8, 9]]))
+square_matrix_simple([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
