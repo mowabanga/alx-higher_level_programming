@@ -7,6 +7,4 @@ def common_elements(set_1, set_2):
         set_2 (list): set 2
     """
     c_elemen = set_1 & set_2
-    print(list(c_elemen))
-    
-common_elements({"python", "ruby", "C", "java"}, {"c++", "javascript", "c#", "C"})
+    return list(c_elemen)
