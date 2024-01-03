@@ -8,7 +8,7 @@ fs.readFile(filePath, 'utf-8', (err, data) => {
         if (err.code === 'ENOENT'){
             console.error(err)
         } else {
-            console.error(`Error reading the file: ${err.message}`)
+            console.error(`Error reading the file: ${err}`)
         }
     } else {
         console.log(data)
